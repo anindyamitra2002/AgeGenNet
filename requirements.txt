@@ -4,4 +4,4 @@ Pillow
 opencv-python
 mtcnn
 numpy
-protobuf
+protobuf==3.20.*
