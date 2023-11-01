@@ -2,5 +2,5 @@ numpy
 tensorflow
 streamlit
 Pillow
-opencv-python-headless==4.5.1.48
+opencv-python==4.5.5.64
 mtcnn
