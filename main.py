@@ -4,6 +4,8 @@ import tensorflow as tf
 import cv2
 import numpy as np
 from mtcnn import MTCNN
+import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 
 
 model = tf.keras.models.load_model('custom_model_bw.h5')
